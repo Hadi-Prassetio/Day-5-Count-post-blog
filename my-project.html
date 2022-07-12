@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my-project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/logo.png">
+    <title>My-Project</title>
+</head>
+<body>
+    <script src="blog.js"></script>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"><img src="assets/logo.png" alt="" style="width: 50px; display: flex; align-items: center;"></a>
+            <ul>
+                <li class="home">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="project">
+                    <a href="my-project.html">My project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li>
+                    <a href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="blog">
+        <div class="blog-form">
+          <div class="form-container">
+            <form onsubmit="addBlog(event)">
+              <h1>ADD MY PROJECT</h1>
+
+              <!-- Project-Name -->
+              <div>
+                <label for="input-project-name">Project Name</label>
+                <input id="input-project-name" class="default"/>
+              </div>
+
+              <!-- Date-Input -->
+              <div class="input-date">
+                <div>
+                    <label for="input-start">Start Date</label>
+                    <input id="input-start" type="date" class="default"/>
+                </div>
+                <div>
+                    <label for="input-end">End Date</label>
+                    <input id="input-end" type="date" class="default"/>
+                </div>
+              </div>
+
+              <!-- Description -->
+              <div>
+                <label for="input-description">Description</label>
+                <textarea id="input-description" class="default"></textarea>
+              </div>
+
+              <!-- CheckBox -->
+              <label for="">Technology</label>
+              <div class="input-checkbox" style="display: flexbox; margin-bottom: 20px;">
+                <div style="float: left; ">
+                  <div style="padding-right: 20px; ">
+                    <input id="js" type="checkbox" name="icon">
+                    <label for="js">JavaScript</label>     
+                  </div>
+                  <div>
+                    <input id="nodejs" type="checkbox" name="icon">
+                    <label for="nodejs">NodeJS</label>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <input id="github" type="checkbox" name="icon">
+                    <label for="github">GitHUB</label> 
+                  </div>
+                  <div>
+                    <input id="phyton" type="checkbox" name="icon">
+                    <label for="phyton">Phyton</label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Upload-Image -->
+              <div>
+                <label>Upload Image</label>
+                <div class="input-blog-image-group">
+                  <label for="input-blog-image">
+                    <p>Choose</p>
+                    <i class="fa-solid fa-link fa-1x"></i>
+                  </label>
+                  <input type="file" id="input-blog-image" hidden />
+                </div>
+              </div>
+
+              <!-- Submit -->
+              <div class="button-group">
+                <button>Submit</button>
+              </div>
+            </form>
+          </div>
+            
+          </div>
+        </div>
+
+        <!-- Content-Blog -->
+        <div class="blog-content">
+            <h1>My Project</h1>
+            <div id="project">
+              <div class="blog-list-item">
+                  <div>
+                      <img src="assets/blog.jpg" alt="">
+                  </div>
+                  <a href="my-project-detail.html"><h3>Lorem ipsum dolor sit amet</h3></a>
+                  <div>
+                      durasi : 3 bulan
+                  </div>
+                  <div>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus esse cum quos quisquam odit porro dolore. Exercitationem obcaecati sunt expedita,</p>
+                  </div>
+                  <div class="blog-technology">
+                      <i class="fa-brands fa-js fa-2x"></i>
+                      <i class="fa-brands fa-node fa-2x"></i>
+                      <i class="fa-brands fa-github fa-2x"></i>
+                      <i class="fa-brands fa-python fa-2x"></i>
+                  </div>
+                  <div class="blog-list-button">
+                      <a href="">edit</a>
+                      <a href="">delete</a>
+                  </div>
+              </div>
+            </div> 
+        </div>
+    </div>
+
+</body>
+</html>

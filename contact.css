@@ -1,0 +1,101 @@
+body{
+    margin: 0%;
+    background-color: rgb(200, 200, 200);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height: 8vh;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.nav-left{
+    display: flex;
+    padding-left: 70px;
+    flex: 50%;
+    align-items: center;
+}
+
+.nav-left li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+/* .home{
+    font-weight: bolder;
+} */
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right li{
+    display: inline;
+    padding-right: 70px;
+}
+
+.nav-right a{
+    background-color:orange;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nav-right a:hover{
+    background-color: orangered;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* background-color: chocolate; */
+}
+
+.form-contact{
+    width: 450px;
+    /* background-color: cadetblue; */
+}
+
+.header{
+    text-align: center;
+}
+
+.form-tag label{
+    display: block;
+    /* background-color: coral; */
+    margin-top: 15px;
+}
+
+.form-tag input, textarea, select{
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 0 15px 0;
+}
+
+.btn-submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.btn-submit button{
+    background-color: rgb(37, 37, 63);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.btn-submit button:hover{
+    background-color: orangered;
+}

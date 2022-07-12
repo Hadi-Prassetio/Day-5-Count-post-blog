@@ -1,0 +1,265 @@
+body{
+    margin: 0%;
+    background-color: rgb(200, 200, 200);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===========navbar========== */
+
+nav{
+    height: 8vh;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.nav-left{
+    display: flex;
+    padding-left: 70px;
+    flex: 50%;
+    align-items: center;
+}
+
+.nav-left li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.project{
+    font-weight: bolder;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right li{
+    display: inline;
+    padding-right: 70px;
+}
+
+.nav-right a{
+    background-color: rgb(37, 37, 63);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nav-right a:hover{
+    background-color: orangered;
+}
+
+/* ==========project form============ */
+
+.blog-form {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .blog-form .form-container {
+    width: 500px;
+  }
+  
+  .blog-form .form-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .blog-form form label {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .blog-form form input.default,
+  textarea,
+  select {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0 10px 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+  }
+  
+  .blog-form form textarea {
+    height: 100px;
+  }
+  
+  .blog-form form .input-blog-image-group {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .input-blog-image-group p{
+    background-color: rgb(180, 180, 180);
+    color: rgb(83, 83, 83);
+    margin: 0;
+    padding: 10px ;
+    border-radius: 8px;
+  }
+
+  .blog-form form .input-blog-image-group label p {
+    font-size: 15px;
+  }
+  
+  .blog-form form .input-blog-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .blog-form form .button-group {
+    text-align: right;
+  }
+  
+  .blog-form form button {
+    margin-top: 50px;
+    padding: 8px 20px;
+    font-size: 17px;
+    background: rgb(37, 37, 63);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+.blog-form form button:hover{
+    background-color: orangered;
+}
+
+.input-date{
+    display: flex;
+}
+
+/* ==========Project==========*/
+
+.blog-content{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+#project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-content h1{
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.blog-list-item{
+    display: block;
+    width: 15%;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(190, 190, 190);
+}
+
+.blog-list-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-list-item h3{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    /* background-color: cadetblue; */
+}
+
+.blog-list-item p{
+    font-weight: 800;
+    text-align: justify;
+}
+
+.blog-list-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.blog-technology i{
+    padding: 5px;
+}
+
+.blog-list-button{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.blog-list-button a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(37, 37, 63);
+    padding: 0px 15px;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+.blog-list-button a:hover{
+    background-color: orangered;
+}
+
+/* =====Detail Project===== */
+
+.detail h1{
+    text-align: center;
+}
+
+.detail-page{
+    margin: 50px;
+}
+
+.detail-project{
+    display: flex;
+    /* margin: 50px; */
+    /* background-color: cadetblue; */
+}
+
+.detail-content{
+    margin-left: 40px;
+    /* background-color: chartreuse; */
+}
+
+.detail-duration{
+    margin-bottom: 40px;
+}
+
+.detail-technology{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-main{
+    text-align: justify;
+    margin-top: 50px;
+}
+
+#contents{
+    display: flex;
+    /* background-color: cadetblue; */
+}

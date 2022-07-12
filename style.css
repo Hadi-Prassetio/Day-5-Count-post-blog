@@ -1,0 +1,125 @@
+body{
+    margin: 0%;
+    background-color: rgb(200, 200, 200);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height: 8vh;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.nav-left{
+    display: flex;
+    padding-left: 70px;
+    flex: 50%;
+    align-items: center;
+}
+
+.nav-left li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.home{
+    font-weight: bolder;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right li{
+    display: inline;
+    padding-right: 70px;
+}
+
+.nav-right a{
+    background-color: rgb(37, 37, 63);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nav-right a:hover{
+    background-color: orangered;
+}
+
+
+.container{
+    background-color: white;
+    margin: 50px 75px;
+    padding: 75px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(75, 75, 75);
+    display: flex;
+}
+
+.content{
+    display: block;
+    flex: 50%;
+    margin-right: 50px;
+    /* background-color: brown; */
+}
+
+.card{
+    /* background-color: blueviolet; */
+    margin: auto;
+    margin-top: 35px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(197, 197, 197);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card h2, .card p{
+    margin: 0%;
+}
+
+.button{
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+.button a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.contact a{
+    background-color: rgb(37, 37, 63);
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.contact{
+    margin-bottom: 10px;
+}
+
+.cv{
+    margin-bottom: 25px;
+    font-size: larger;
+}
+
+.media{
+    display: flex;
+    /* justify-content: center; */
+    /* margin: auto; */
+    margin-top: 75px;
+}
+
+.media i{
+    padding: 10px;
+}
